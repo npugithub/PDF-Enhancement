@@ -30,7 +30,9 @@ if __name__ == '__main__':
     png_dir = makedir(pdf_name)
 
     # PDF 转换为 PNGs
-    convert.pdf2png(current_path + pdf_name,current_path + png_dir)
+    convert.pdf2png(pdf_name, png_dir)
+
+
 
     # 图像增强
 
